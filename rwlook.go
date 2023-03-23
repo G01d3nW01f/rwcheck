@@ -15,7 +15,7 @@ const (
 
 func main() {
 	if len(os.Args) != 2 {
-		fmt.Println("Usage: go run filelist.go <directory>")
+		fmt.Println("Usage: go run rwlook.go <directory>")
 		os.Exit(1)
 	}
 
